@@ -1,9 +1,14 @@
+* {
+    background-color: rgb(225, 255, 255);
+}
+
 ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     width: 200px;
     background-color: #f1f1f1;
+    
 }
 
 li a {
@@ -11,16 +16,22 @@ li a {
     color: #000;
     padding: 8px 0 8px 16px;
     text-decoration: none;
+    border-radius: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
 }
 
 /* Change the link color on hover */
 li a:hover {
     background-color: #5d5757;
     color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: red;
+    padding: 15px;
 }
 
 .text_1 {
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: center;
     background-color: aliceblue;
     border-radius: 20px;
@@ -34,17 +45,91 @@ li a:hover {
   text-align: center;
   background-color: aliceblue;
     border-radius: 20px;
+    padding: 10px;
 
 }
+
+.text_2:hover {
+ background-color: rgb(223, 233, 255);
+    color: rgb(181, 35, 35);
+}
 .text_sem {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Times New Roman', Times, serif;
     text-align: center;
     padding-bottom: 20px;
     
 
 }
 .text_text {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Times New Roman', Times, serif;
     text-align: center;
     padding-bottom: 20px;
+}
+
+h3 {
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h5 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 15px;
+    background-color: aquamarine;
+    border-radius: 20px;
+    padding: 8px;
+    
+}
+
+h5:hover {
+    background-color: aqua;
+    color: red;
+}
+.text_azt {
+    background-color: rgb(227, 242, 237);
+    border-radius: 20px;
+    padding: 10px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.text_yt {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 15px;
+    background-color: aquamarine;
+    border-radius: 20px;
+    padding: 8px;
+}
+
+.text_yt:hover {
+    background-color: aqua;
+    color: red;
+}
+p {
+    background-color: rgb(227, 242, 237);
+    border-radius: 20px;
+    padding: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+
+.boton {
+    text-decoration: none;
+    background-color: #5d5757;
+    padding: 10px;
+    border-radius: 10px;
+    color: #f1f1f1;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+    
+}
+
+.boton:hover {
+    color: red;
+    background-color: black;
+    border-radius: 10px;
+    padding: 15px;
+}
+
+h6 {
+    font-size: 15px;
+    text-align: center;
 }
